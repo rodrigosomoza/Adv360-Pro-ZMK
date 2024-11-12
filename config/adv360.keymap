@@ -89,8 +89,8 @@
         NavEdit {
             bindings = <
 &trans  &trans  &trans     &trans             &trans             &trans  &trans                                      &trans  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans     &kp K_UNDO         &kp K_REDO         &trans  &trans                                      &trans  &trans  &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &trans  &trans
-&trans  &trans  &kp K_CUT  &kp K_COPY         &kp K_PASTE        &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &trans     &kp LC(Z)          &kp LC(LS(Z))      &trans  &trans                                      &trans  &trans  &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &trans  &trans
+&trans  &trans  &kp LC(X)  &kp LC(C)          &kp LC(V)          &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
 &trans  &trans  &trans     &kp LC(LA(ENTER))  &kp LC(LA(SPACE))  &trans                  &trans      &trans                  &trans  &kp PAGE_DOWN   &trans          &kp PAGE_DOWN    &trans  &trans
 &trans  &trans  &trans     &trans             &trans                     &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans           &trans  &trans
             >;
