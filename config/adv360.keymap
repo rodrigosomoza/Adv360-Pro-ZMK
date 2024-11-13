@@ -88,11 +88,11 @@
 
         NavEdit {
             bindings = <
-&trans  &trans  &trans     &trans             &trans             &trans  &trans                                      &trans  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans     &kp LC(Z)          &kp LC(LS(Z))      &trans  &trans                                      &trans  &trans  &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &trans  &trans
-&trans  &trans  &kp LC(X)  &kp LC(C)          &kp LC(V)          &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &trans     &kp LC(LA(ENTER))  &kp LC(LA(SPACE))  &trans                  &trans      &trans                  &trans  &kp PAGE_DOWN   &trans          &kp PAGE_DOWN    &trans  &trans
-&trans  &trans  &trans     &trans             &trans                     &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans     &trans             &trans             &trans  &trans                                      &trans  &trans    &trans          &trans          &trans           &trans   &trans
+&trans  &trans  &trans     &kp LC(Z)          &kp LC(LS(Z))      &trans  &trans                                      &trans  &trans    &kp PAGE_UP     &kp UP_ARROW    &trans           &trans   &trans
+&trans  &trans  &kp LC(X)  &kp LC(C)          &kp LC(V)          &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans
+&trans  &trans  &trans     &kp LC(LA(ENTER))  &kp LC(LA(SPACE))  &trans                  &trans      &trans                  &trans    &kp PAGE_DOWN   &trans          &trans           &trans   &trans
+&trans  &trans  &trans     &trans             &trans                     &trans  &trans  &trans      &trans  &trans  &trans            &trans          &trans          &trans           &trans   &trans
             >;
         };
 
@@ -118,11 +118,11 @@
 
         MacOSNavEdit {
             bindings = <
-&trans  &trans  &trans     &trans             &trans             &trans  &trans                                      &trans  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans     &kp LG(Z)          &kp LS(LG(Z))      &trans  &trans                                      &trans  &trans  &kp HOME        &kp UP_ARROW    &kp PAGE_UP      &trans  &trans
-&trans  &trans  &kp LG(X)  &kp LG(C)          &kp LG(V)          &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &trans     &kp LA(LG(ENTER))  &kp LA(LG(SPACE))  &trans                  &trans      &trans                  &trans  &kp PAGE_DOWN   &trans          &kp PAGE_DOWN    &trans  &trans
-&trans  &trans  &trans     &trans             &trans                     &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans          &trans           &trans  &trans
+&trans  &trans  &trans     &trans             &trans             &trans  &trans                                      &trans  &trans    &trans          &trans          &trans           &trans   &trans
+&trans  &trans  &trans     &kp LG(Z)          &kp LS(LG(Z))      &trans  &trans                                      &trans  &trans    &kp PAGE_UP     &kp UP_ARROW    &trans           &trans   &trans
+&trans  &trans  &kp LG(X)  &kp LG(C)          &kp LG(V)          &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans
+&trans  &trans  &trans     &kp LA(LG(ENTER))  &kp LA(LG(SPACE))  &trans                  &trans      &trans                  &trans    &kp PAGE_DOWN   &trans          &trans           &trans   &trans
+&trans  &trans  &trans     &trans             &trans                     &trans  &trans  &trans      &trans  &trans  &trans            &trans          &trans          &trans           &trans   &trans
             >;
         };
     };
